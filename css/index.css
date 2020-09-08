@@ -1,0 +1,41 @@
+header .navbar {
+	background-color: #ffffff;
+	/* height: 78px; */
+	padding: 20px 0;
+}
+header .navbar .navbar-header img {
+	margin-left: 20px;
+}
+header .navbar-collapse ul.navbar-nav {
+	float: right;
+}
+
+@media only screen and (max-width:768px) {
+	header .navbar-collapse ul.navbar-nav {
+		width: 100%;
+	}
+}
+
+
+.flex-caption h3 {
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	opacity: 0.7;
+	text-shadow: 8px 8px 10px rgba(255,0,0,.3);
+}
+
+.flex-caption {
+	position: absolute;
+	color: #ffffff;
+	left:50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+
+@media only screen and (max-width:767px) {
+	.flex-caption  {
+		display: none;
+	}
+}
