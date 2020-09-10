@@ -39,3 +39,43 @@ header .navbar-collapse ul.navbar-nav {
 		display: none;
 	}
 }
+
+.our_products h1{
+	text-align: center;
+	color: #888;
+}
+.our_products p{
+	text-indent: 2em;
+	line-height: 1.6em;
+	color: #888;
+}
+.skill-home .iconfont {
+	font-size: 42px;
+	color: #E48907;
+	text-align: center;
+	padding: 36px 0 14px 0;
+}
+
+.skill-home h3 {
+	font-size: 20px;
+	font-weight: 600;
+}
+.skill-home a {
+	color: #0c1f5a;
+}
+
+
+.skill-home .box:hover {
+	background-color: #e48907;
+	cursor: pointer;
+	color: #FFFFFF;
+}
+
+.skill-home .box {
+	text-align: center;
+	border: 1px solid #DDDDDD;
+}
+
+.skill-home .box:hover .iconfont {
+	color: #FFFFFF;
+}
