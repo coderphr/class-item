@@ -79,3 +79,27 @@ header .navbar-collapse ul.navbar-nav {
 .skill-home .box:hover .iconfont {
 	color: #FFFFFF;
 }
+
+.box {
+	box-shadow: 5px 5px 10px rgba(0,0,0,.3);
+	margin: 20px 0 10px 0;
+}
+
+.aboutus .container img {
+	width: 100%;
+}
+
+.aboutus {
+	padding: 50px 0 0;
+}
+
+.aboutus p {
+	line-height: 2em;
+}
+
+footer {
+	padding: 25px 0 0;
+	background-color: #080808;
+	color: #949494;
+	text-align: center;
+}
