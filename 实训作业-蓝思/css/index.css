@@ -1,0 +1,77 @@
+/* header */
+* {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style-type: none;
+}
+/* pc pid 下导航的背景及边框的设置 */
+@media only screen and (min-width: 768px) {
+  header .navbar .collapse ul  {
+    margin-left: 10px;
+    height: 68px;
+  }
+  header .navbar .collapse  ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    height: 100%;
+    border: 1px transparent solid;
+    border-image: linear-gradient(to bottom, #ffffff,#e9e8e8) 1 10; /* 边框渐变 */
+  }
+  
+  header .navbar .collapse  ul li:hover {
+    background: url('../img/liHover.gif') no-repeat ;
+    background-size: 100% 100%;
+  }
+}
+/* 解决 ipad端 导航下移 */
+@media (min-width:768px)  and  (max-width:1200px) {
+  header .container .navbar {
+    display: flex;
+  }
+}
+header .navbar .collapse  ul li a {
+    color: #060606; 
+}
+.about .container .row  div{
+  box-sizing: border-box;
+}
+.about .container .row div img{
+  width: 100%;
+}
+
+.connect {
+  padding-top: 30px;
+  background-color: #082b53;
+}
+
+.connect .container .row div a{
+  color: #ffffff;
+}
+.connect .container .row div h4 {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.connect .container .row div ul li {
+  margin: 12px 0px;
+}
+
+.connect .container .row div ul li a:hover {
+  color: #ffffff;
+}
+
+footer {
+  background-color: #082b53;
+  font-size: 16px;
+  font-weight: blod;
+  text-align: center;
+  color: #91979f;
+}
+footer p {
+  padding: 20px;
+  border-top: 1px solid #383838;
+}
